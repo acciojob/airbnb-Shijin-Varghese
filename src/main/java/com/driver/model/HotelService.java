@@ -29,7 +29,7 @@ public class HotelService {
                 cnt=db.get(it).getFacilities().size();
                 hotel=it;
             }
-            if(cnt == db.get(it).getFacilities().size()){
+            else if(cnt == db.get(it).getFacilities().size()){
                 if(hotel.compareTo(it)>0) {
                     hotel=it;
                 }
