@@ -9,6 +9,7 @@ public class Hotel {
 
     private List<Facility> facilities;
 
+
     private int pricePerNight;
 
     public Hotel(String hotelName, int availableRooms, List<Facility> facilities, int pricePerNight) {
